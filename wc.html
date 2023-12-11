@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="icon" type="icon" href="/Images/logo.png">
+<!--font awesome cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!--Css link-->
+<link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/wc.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<title>WC-2022</title>
+<body>
+ <!--Navbar start-->
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="/Images/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2  p-lg-3" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#stats">WC Stats</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#analytics">Analytics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <div class="search ps-3 pe-3 d-lg-block active" id="light">
+            <i class="fa-solid fa-sun" ></i>
+        </div>
+        <div class="search ps-3 pe-3 d-lg-block" id="dark">
+            <i class="fa-solid fa-moon" ></i>
+        </div>
+        <a class="btn main-btn rounded-pill" href="/LogIn/signlog.html">Login</a>
+    </div>
+    </div>
+</nav>
+    
+    <!--Home Section Start-->
+<section class="home" id="home">
+    <div class="content">
+        <h2>It`s <span>World Cup</span> time</h2>
+        <p class="h">Enjoy Watching world cup and catch up with the event</p>
+        <button class="bu"><a>Discover Now</a></button>
+    </div>
+
+    <div class="vid-con">
+        <span class="vid-btn active" data-src="Vids/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="Vids/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="Vids/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="/Vids/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="/Vids/vid-5.mp4"></span>
+    </div>
+
+    <div class="vid-container">
+        <video src="/Vids/vid-1.mp4" muted autoplay id="vid1"></video>
+    </div>
+</section>
+<!--Home Section End-->
+
+<!--news sec start-->
+<section class="gallery" id="news">
+    <h1 class="head">
+        <span>n</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+    </h1>
+    <div class="gcont row px-5">
+        <div class="col-lg-4 col-md-6">
+            <div class="box">
+                <img class="img-fluid"src="/Images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Mane Injured!</h3>
+                    <p>Sadio Mane is out of Senegal national squad for the World cup due to an injury</p>
+                    <a class="btn main-btn rounded-pill" href="https://www.bbc.com/sport/africa/63640205" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    <div class="col-lg-4 col-md-6">
+        <div class="box">
+            <img class="img-fluid"src="/Images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Balde replaces Gaya</h3>
+                <p>Barcelona’s Alejandro Balde replaces injured Jose Gaya in Spain’s FIFA World Cup squad </p>
+                <a class="btn main-btn rounded-pill" href="https://khelnow.com/football/2022-11-world-football-2022-fifa-world-cup-spain-squad-alejandro-balde-replace-injured-jose-gaya" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+        <div class="box">
+            <img class="img-fluid"src="/Images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Gianni Infantino Speech</h3>
+                <p>Gianni Infantino defended the host country’s decision to ban the sale of beer at stadiums and fired back at the “hypocrisy” of Western criticisms.</p>
+                <a class="btn main-btn rounded-pill" href="https://www.nytimes.com/2022/11/19/sports/soccer/world-cup-gianni-infantino-fifa.html" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+        
+    <div class="col-lg-4 col-md-6">
+        <div class="box">
+            <img class="img-fluid"src="/Images/g-4.png" alt="">
+            <div class="content">
+                <h3>Egypt Defeats Belgium</h3>
+                <p>Egypt’s national football team bested world number two, Belgium, in a pre-World Cup friendly on Friday, 18 November</p>
+                <a class="btn main-btn rounded-pill" href="https://www.bbc.com/sport/africa/63640205" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+        <div class="box">
+            <img class="img-fluid"src="/Images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Nkunku out of World Cup</h3>
+                <p>France forward Christopher Nkunku will miss the World Cup after suffering an injury in training on Tuesday</p>
+                <a class="btn main-btn rounded-pill" href="https://www.reuters.com/lifestyle/sports/france-forward-nkunku-out-world-cup-with-knee-injury-2022-11-15/" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+        <div class="box">
+            <img class="img-fluid"src="/Images/g-6.png" alt="">
+            <div class="content">
+                <h3>hosts Qatar VS Ecuador.</h3>
+                <p>The 2022 FIFA World Cup is ready to kick off as hosts Qatar match up against Group A opponents Ecuador</p>
+                <a class="btn main-btn rounded-pill" href="https://www.sportingnews.com/us/soccer/news/qatar-vs-ecuador-prediction-world-cup-odds-betting-tips-2022/lphq40mmwjezklq3naoazrxg" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</section>
+<!--News sec end-->
+
+<!--Blogs sec start-->
+<section class="reviews" id="blogs">
+    <h1 class="head">
+        <span>b</span>
+        <span>l</span>
+        <span>o</span>
+        <span>g</span>
+        <span>s</span>
+    </h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    <div class="box">
+        <img src="/Images/pic2.png" alt="">
+            <h3>Title</h3>
+            <span>written by:</span>
+            <span>date:</span>
+            <p>an article about title to view it press the button below</p>
+            <a class="btn main-btn rounded-pill" href="/blogs/blog.html" target="_blank">Read More</a>
+    </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/Images/pic2.png" alt="">
+                        <h3>Title</h3>
+                        <span>written by:</span>
+                        <span>date:</span>
+                        <p>an article about title to view it press the button below</p>
+                        <a class="btn main-btn rounded-pill" href="/blogs/blog.html" target="_blank">Read More</a>
+                </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <img src="/Images/pic2.png" alt="">
+                                    <h3>Title</h3>
+                                    <span>written by:</span>
+                                    <span>date:</span>
+                                    <p>an article about title to view it press the button below</p>
+                                    <a class="btn main-btn rounded-pill" href="/blogs/blog.html" target="_blank">Read More</a>
+                            </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <img src="/Images/pic2.png" alt="">
+                                                <h3>Title</h3>
+                                                <span>written by:</span>
+                                                <span>date:</span>
+                                                <p>an article about title to view it press the button below</p>
+                                                <a class="btn main-btn rounded-pill" href="/blogs/blog.html" target="_blank">Read More</a>
+                                        </div>
+                                                </div>
+    </div>
+    </div>
+    
+</section>    
+<!--Blogs sec end-->
+
+<!--Stats section start-->
+<section class="packages" id="stats">
+    <h1 class="head">
+        <span>w</span>
+        <span>c</span>
+        <span> </span>
+        <span>s</span>
+        <span>t</span>
+        <span>a</span>
+        <span>t</span>
+        <span>S</span>
+    </h1>
+
+<div class="box-container row">
+
+    <div class="col-lg-4 col-md-6">
+    <div class="box">
+        <h2>Top Scorers</h2>
+        <ol class="cont">
+          <li class="d-flex flex-row align-items-center py-3">
+            <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+            <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+            <span class="score">5 goals</span>
+          </li>  
+            
+          
+            <li class="d-flex flex-row align-items-center py-3">
+              <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+              <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+              <span class="score">5 goals</span>
+            </li>  
+
+            
+            <li class="d-flex flex-row align-items-center py-3">
+                <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                <span class="score">5 goals</span>
+            </li>  
+
+            <li class="d-flex flex-row align-items-center py-3">
+                <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                <span class="score">5 goals</span>
+            </li>  
+
+            <li class="d-flex flex-row align-items-center py-3">
+                <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                <span class="score">5 goals</span>
+            </li>  
+        </ol>
+    </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+        <div class="box">
+            <h2>Top Asists</h2>
+            <ol class="cont">
+              <li class="d-flex flex-row align-items-center py-3">
+                <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                <span class="score">5 goals</span>
+              </li>  
+                
+              
+                <li class="d-flex flex-row align-items-center py-3">
+                  <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                  <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                  <span class="score">5 goals</span>
+                </li>  
+    
+                
+                <li class="d-flex flex-row align-items-center py-3">
+                    <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                    <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                    <span class="score">5 goals</span>
+                </li>  
+    
+                <li class="d-flex flex-row align-items-center py-3">
+                    <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                    <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                    <span class="score">5 goals</span>
+                </li>  
+    
+                <li class="d-flex flex-row align-items-center py-3">
+                    <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                    <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                    <span class="score">5 goals</span>
+                </li>  
+            </ol>
+        </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6">
+            <div class="box">
+                <h2>Top Rate</h2>
+                <ol class="cont">
+                  <li class="d-flex flex-row align-items-center py-3">
+                    <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                    <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                    <span class="score">5 goals</span>
+                  </li>  
+                    
+                  
+                    <li class="d-flex flex-row align-items-center py-3">
+                      <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                      <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                      <span class="score">5 goals</span>
+                    </li>  
+        
+                    
+                    <li class="d-flex flex-row align-items-center py-3">
+                        <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                        <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                        <span class="score">5 goals</span>
+                    </li>  
+        
+                    <li class="d-flex flex-row align-items-center py-3">
+                        <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                        <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                        <span class="score">5 goals</span>
+                    </li>  
+        
+                    <li class="d-flex flex-row align-items-center py-3">
+                        <img class="img-fluid" src="/Images/s-1.jpg" alt="">
+                        <h3 class="">Lionel Messi <span>(Argentina)</span></h3>
+                        <span class="score">5 goals</span>
+                    </li>  
+                </ol>
+            </div>
+            </div>
+</div>
+
+</section>
+<!--Stats section end-->
+
+<!--analytics Sec Start -->
+<section class="book" id="analytics">
+    <h1 class="head">
+        <span>a</span>
+        <span>n</span>
+        <span>a</span>
+        <span>l</span>
+        <span>y</span>
+        <span>t</span>
+        <span>i</span>
+        <span>c</span>
+        <span>s</span>
+    </h1>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="/Images/analysis.jpg" alt="">
+        </div>
+
+        <div class="col-lg-6">
+            <h2>Analysis using Machine learning</h2>
+            <p>There a new feature that analyze the match using Machine learning we provide a data set for some big matches and you choose the match and you will see the full match details. 
+                All you have to do is to open the link below and choose the compettion you want to and choose the match then you will see the full analysis for this match this feature provided by our site , we hope you like it.
+            </p>
+            <a class="btn main-btn rounded-pill" href="https://ahmedtarek26-soccer-analytics-statsbomby-statsbomb-yg8yfu.streamlitapp.com/" target="_blank">View Site</a>
+        </div>
+    </div>
+
+</section>
+<!--analytics Sec End -->
+
+<!--Contact sec start-->
+<section class="contact" id="contact">
+    <h1 class="head">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+    </h1>
+    <div class="container">
+        <div class="im">
+            <img src="/Images/contact-img.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="input">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input">
+                    <input type="text" placeholder="Phone-Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                
+                <a class="btn main-btn rounded-pill" target="_blank">Send</a>
+            </form>
+        </div>
+    </div>
+</section>
+<!--Contact sec end-->
+
+ <!--footer sec start-->
+<footer class="mt-4">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-4 col-md-6">
+                <a class="Image" href="#">
+                    <img src="/Images/logo.png">
+                </a>
+                <p class="foot">We are happy to help and serve and we wish you to be always on the event</p>
+    
+                <p class="foot mt-5">created by <span>Our Team</span><br>
+                    &#169; - <span>BFCAI SC</span></p>
+            </div>
+    
+            <div class="col-lg-4 col-md-6">
+                <div class="lists d-flex flex-row">
+                <ul class="list-unstyled d-flex flex-column mx-5">
+                    <li class="main p-2 fs-5 fw-bold">Links</li>
+                    <li class="p-2">Home</li>
+                    <li class="p-2">About</li>
+                    <li class="p-2">Services</li>
+                    <li class="p-2">Blog</li>
+                    <li class="p-2">Work</li>
+                    <li class="p-2">Team</li>
+                </ul>
+                <ul class="list-unstyled d-flex flex-column mx-5">
+                    <li class="main p-2 fs-5 fw-bold">Links</li>
+                    <li class="p-2">Home</li>
+                    <li class="p-2">About</li>
+                    <li class="p-2">Services</li>
+                    <li class="p-2">Blog</li>
+                    <li class="p-2">Work</li>
+                </ul>
+                </div>
+            </div>
+    
+            <div class="contact col-lg-4 col-md-6 ">
+                <div class="contact d-flex justify-content-start flex-column lh-lg">
+                <h4 class="py-2">Contact Us</h4>
+                <p class="foot text-start">You can contact us via several ways yo can choose whatever you want</p>
+                <a class="btn main-btn rounded-pill my-3 w-100" href="#">fifawc2022@gmail.com</a>
+                </div>
+                <ul class="social list-unstyled d-flex flex-row gap-3">
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-facebook fa-lg rounded-circle face p-2"></i>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-twitter fa-lg rounded-circle twit p-2"></i>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin fa-lg rounded-circle linked p-2"></i>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-instagram fa-lg rounded-circle insta p-2"></i>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+<!--footer sec end-->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="/js/wc.js"></script>
+<!--scripts-->
+<script src="/js/all.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
